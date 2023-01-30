@@ -2,7 +2,7 @@
 
 A self-supervised learning framework to exploit information from chemical reaction dataset
 
-
+(This is a project under developing, codes here are only for the purpose of illustration. Please do not copy this project to anywhere else for whatever purpose, thanks :) )
 
 ## attrmasking pretrain and testing
 
