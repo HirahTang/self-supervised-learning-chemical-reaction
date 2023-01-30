@@ -1,0 +1,20 @@
+from easydict import EasyDict as edict
+
+USPTO_CONFIG = edict()
+USPTO_CONFIG.path = "{}/sharefs-hantang/uspto_data/uspto.csv".format(root)
+USPTO_CONFIG.path_full = "{}/sharefs-hantang/uspto_data/USPTO_FULL.csv".format(root)
+USPTO_CONFIG.reactant = "{}/sharefs-hantang/uspto_data/reactant.txt".format(root)
+USPTO_CONFIG.full = "{}/sharefs-hantang/uspto_data/full.txt".format(root)
+USPTO_CONFIG.full_smiles = "{}/sharefs-hantang/uspto_data/smiles.txt".format(root)
+USPTO_CONFIG.failed = "{}/sharefs-hantang/uspto_data/failed_samples.txt".format(root)
+USPTO_CONFIG.reactant_dict = "{}/sharefs-hantang/uspto_data/reactant_dict.pickle".format(root)
+USPTO_CONFIG.full_dict = "{}/sharefs-hantang/uspto_data/full_dict.pickle".format(root)
+USPTO_CONFIG.reactant_df = "{}/sharefs-hantang/uspto_data/uspto_reactant.csv".format(root)
+USPTO_CONFIG.full_df = "{}/sharefs-hantang/uspto_data/uspto_full_mol.csv".format(root)
+USPTO_CONFIG.reaction_centre = "{}/sharefs-hantang/uspto_data/reaction_centre.pickle".format(root)
+USPTO_CONFIG.dup_raw = "{}/sharefs-hantang/uspto_data/duplicate_raw.txt".format(root)
+USPTO_CONFIG.problematic = "{}/sharefs-hantang/uspto_data/problematic_raw.txt".format(root)
+USPTO_CONFIG.dataset = "{}/sharefs-hantang/uspto_data/uspto_molair.csv".format(root)
+USPTO_CONFIG.vocab_save_folder = "{}/sharefs-hantang/uspto_data".format(root)
+USPTO_CONFIG.dataset_name = "uspto"
+USPTO_CONFIG.atom_vocab_file = "{}/sharefs-hantang/uspto_data/uspto_atom_vocab.pkl".format(root)

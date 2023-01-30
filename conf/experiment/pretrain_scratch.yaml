@@ -1,0 +1,13 @@
+# @package _global_
+training_settings:
+  epochs_RC: 1
+  epochs_1hop: 1
+  epochs_2hop: 1
+  epochs_3hop: 1
+  stage2_on: 0
+  lr: 0.001
+  batch_size: 64
+  testing_stage: 1
+
+model:
+  target: NodeEdge

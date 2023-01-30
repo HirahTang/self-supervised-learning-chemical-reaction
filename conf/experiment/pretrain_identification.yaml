@@ -1,0 +1,7 @@
+# @package _global_
+training_settings:
+  epochs_RC: 100
+  lr: 0.001
+  stage2_on: 1
+  batch_size: 64
+  testing_stage: 0

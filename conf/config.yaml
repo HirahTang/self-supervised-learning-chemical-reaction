@@ -1,0 +1,33 @@
+training_settings:
+  device: 0
+  batch_size: 8
+  epochs_RC: 10
+  epochs_1hop: 20
+  epochs_2hop: 30
+  epochs_3hop: 40
+  lr: 0.0001
+  decay: 0
+  seed: 0
+  stage2_on: 1
+  stage_one_model:
+  validation_size: 10000
+  dataset: zinc_standard_agent
+  num_workers: 8
+  testing_stage: 0
+  focal_loss: 0
+  focal_loss_gamma: 2
+  focal_loss_alpha: 0.25
+
+model:
+  num_layer: 5
+  emb_dim: 300
+  dropout_ratio: 0
+  mask_rate: 0
+  mask_edge: 0
+  JK: last
+  gnn_type: gin
+  output_model_file: 
+  target: mlabes
+wandb:
+  login_key:
+  run_name: training

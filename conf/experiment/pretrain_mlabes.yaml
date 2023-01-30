@@ -1,0 +1,13 @@
+# @package _global_
+training_settings:
+  epochs_RC: 10
+  epochs_1hop: 20
+  epochs_2hop: 30
+  epochs_3hop: 40
+  stage2_on: 1
+  lr: 0.001
+  batch_size: 64
+  testing_stage: 0
+
+model:
+  target: mlabes
