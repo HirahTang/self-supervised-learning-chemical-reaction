@@ -28,6 +28,8 @@ python finetune_gcn.py --input_model_file INPUT_MODEL_PATH --dataset DOWNSTREAM_
 ## Stage 2 Continuous Self-supervised learning from Chemical Reaction Data
 
 This module uses Hydra to organize configurations
+
+
 Pre-train:
 ```
 python pretrain/pretrain_rcmasking.py +experiment={Your experiment configuration(yaml)}
